@@ -1,0 +1,6 @@
+CREATE TABLE `microservice_command_cqrs`.`product_command` (
+  `id` BIGINT(10) NOT NULL,
+  `name` VARCHAR(200) NULL,
+  `description` VARCHAR(200) NULL,
+  `price` DOUBLE NULL,
+  PRIMARY KEY (`id`));
