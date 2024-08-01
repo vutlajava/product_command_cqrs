@@ -31,6 +31,7 @@ public class ProductCommandController {
 	public Product create(@RequestBody ProductEvent product) {
 
 		System.out.println("Hello");
+		System.out.println("Added new changes");
 		return productCommandService.createProduct(product);
 		
 		
