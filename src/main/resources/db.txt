@@ -4,3 +4,5 @@ CREATE TABLE `microservice_command_cqrs`.`product_command` (
   `description` VARCHAR(200) NULL,
   `price` DOUBLE NULL,
   PRIMARY KEY (`id`));
+
+#added some changes
