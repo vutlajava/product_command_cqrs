@@ -29,7 +29,8 @@ public class ProductCommandController {
 			                             MediaType.APPLICATION_XML_VALUE  }  
 	          )
 	public Product create(@RequestBody ProductEvent product) {
-		
+
+		System.out.println("Hello");
 		return productCommandService.createProduct(product);
 		
 		
